@@ -1,0 +1,7 @@
+<?script src="/js/notification.js"?>
+<zk>
+	<window apply="org.zkoss.blog.timeplot.TimeplotComposer">
+	    <charts id="chart" zoomType="x" enableZoomSelection="false" title="ZK Timeplot"/>
+	    <button id="btn" visible="false" label="Reset Zoom"/> 
+	</window>
+</zk>
